@@ -40,9 +40,11 @@
   /* transition: opacity 1s;
   -webkit-transition: opacity 1s; */
 }
-
+body{
+  background-color: #000000;
+}
 #sc-password h1 {
-  background: #3399cc;
+  background: #555;
   padding: 25px;
   font-size: 150%;
   font-weight: 300;
@@ -82,7 +84,7 @@ div#sc-password input[type="tel"] {
 
 div#sc-password input[type="submit"] {
   width: 100%;
-  background: #3399cc;
+  background: #555;
   border: 0;
   padding: 5%;
   font-family: 'Open Sans', sans-serif;
@@ -99,12 +101,12 @@ div#sc-password input[type="submit"]:hover {
 }
 .link{
     text-align: center;
-    /* border: 2px solid black; */
+    /*border: 2px solid black; */
     margin: 0px;
 }
 .link span{
     border: 1px solid rgb(0, 0, 0);
-    background-color: #3399cc ;
+    background-color: #555 ;
     margin: 10px 10px;
     padding: 10px;
     

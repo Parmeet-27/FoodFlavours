@@ -231,7 +231,7 @@ $(document).ready(function () {
 
 function openWhatsapp() {
   // console.log($('#address'));
- window.open("login.html")
+ window.open("payment.html")
   if ($("#address")[0].value === "") {
     alert("Please Enter Address");
     return;
