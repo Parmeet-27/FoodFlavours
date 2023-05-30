@@ -231,6 +231,13 @@ $(document).ready(function () {
 
 function openWhatsapp() {
   // console.log($('#address'));
+  var name=document.myform.fname.value;  
+      
+  if (name==null || name==""){  
+    alert("Name can't be blank");  
+    return false;  
+   }
+  
  window.open("payment.html")
   if ($("#address")[0].value === "") {
     alert("Please Enter Address");
